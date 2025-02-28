@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    color: rgb(75, 106, 148);
+    margin: 0px 100px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 1920px;
+    background-color: rgb(20, 52, 82);
+}
+
+main{
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(6, 67, 102);
+}
