@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;    
+}
+body{
+    background-color: rgb(105, 71, 138);
+}
+header{
+    width: 100%;
+    background-color: rgb(168, 71, 168);
+    padding: 10px 0px;
+    display: flex;
+    justify-content: end;
+    }
+nav{
+        display: flex;
+        gap: 20px;
+    }
+a{
+        text-decoration:solid;
+        color: rgb(180, 83, 172);
+        text-align: center;
+    }
+    
