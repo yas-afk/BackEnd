@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --corPrimaria: rgb(160, 75, 194) ;
+    --corSecundaria: rgb(154, 104, 187);
+    --branco: rgb(167, 95, 182);
+}
+
+header,footer{
+    width: 100%;
+    background-color: var(--branco);
+    padding:  20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width:300px;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+#logo{
+    display: flex;
+    gap: 20px;
+}
+#logo img{
+    width: 30px;
+}
+#catalogo{
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: var(--branco);
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.livro{
+    width: 200px;
+    padding: 5px;
+    background-color: var(--corPrimaria);
+    color: rgb(132, 84, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.livro img{
+    width: 80%;
+}
+
+button{
+    display: flex;
+    padding: 5px;
+    border-radius: 4px;
+}
