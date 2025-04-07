@@ -7,6 +7,7 @@
         <th>Nome</th>
         <th>Descricao</th>
         <th>Avaliacao</th>
+        <th>Imagem</th>
   
     </tr>
 <?php
@@ -20,9 +21,11 @@
         <td><?=$dados['nomeLivro'] ?></td>
         <td><?=$dados['descricaoLivro'] ?></td>
         <td><?=$dados['avaliacaoLivro'] ?></td>
+        <td><?=$dados['imagemLivro'] ?></td>
      </tr>
 <?php
     }
 ?>
+
 
 </table>
