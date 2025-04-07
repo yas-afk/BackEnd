@@ -13,6 +13,10 @@
     <div class="form-group">
         <label for="avaliacao">Avaliacao:</label>
         <input type="number" id="avaliacao" name="avaliacao">
-    </div>>
+    </div>
+     <div class="form-group">
+        <label for="imagem">Imagem:</label>
+        <input type="text" id="imagem" name="imagem">
+    </div>
     <button type="submit">Adicionar</button>
 </form>
