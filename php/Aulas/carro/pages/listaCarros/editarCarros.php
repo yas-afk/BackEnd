@@ -3,9 +3,11 @@
  $id = $_GET['idCarros'];
 
  echo"esse é o carro de Nº$id";
+
  $sql= "SELECT * FROM carros WHERE idCarros = {$id}";
 
  $query = mysqli_query($conexao,$sql) or die ("Erro ao executar a consulta".mysqli_error($conexao));
+ 
  $dados = mysqli_fetch_assoc($query);
 ?>
          <h1>Editar Carro</h1>

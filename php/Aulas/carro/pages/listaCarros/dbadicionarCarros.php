@@ -17,7 +17,7 @@ $sql = "UPDATE carros SET(
   WHERE idCarro = '{$id}'
 )";
 
-mysqli_query($conexao,$sql) or die ("Erro as atualizar")
+mysqli_query($conexao,$sql) or die ("Erro as atualizar");
 
 echo "O carro foi atualizado!";
 ?>

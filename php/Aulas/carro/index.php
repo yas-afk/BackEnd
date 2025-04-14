@@ -44,6 +44,9 @@
             case 'dbadicionarCarros':
                 include("pages/listaCarros/dbadicionarCarros.php");
                 break;
+            case 'deletarCarros':
+                include("pages/listaCarros/deletarCarros.php");
+                break;
         }
         ?>
 
