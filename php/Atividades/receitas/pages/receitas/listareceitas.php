@@ -1,6 +1,5 @@
 
 
-<a href="i">Home</a>
 <a href="index.php?menu=adicionareceitas">
 <button type="button"> ADicionar Receitas</button></a>
 <form action="" method="post">
@@ -50,8 +49,8 @@ if(isset($_POST['pesquisa'])){
         <td><?=$dados['receitatexto']?></td>
         <td><?=$dados['autor']?></td>
         <td><?=$dados['tiporeceita']?></td>
-        <td><a href="index.php?menu=editarReceitas&idReceitas=<?$dados['idReceita']?>" class="btn btn-primary">EDITAR</a></td>
-        <td><a href="index.php?menu=deletarReceitas&idReceitas=<?$dados['idReceita']?>" class="btn btn-primary">DELETAR</a></td>
+        <td><a href="index.php?menu=editarReceitas&idReceitas=<?=$dados['idReceitas']?>" class="btn btn-primary">EDITAR</a></td>
+        <td><a href="index.php?menu=deletarReceitas&idReceitas=<?=$dados['idReceitas']?>" class="btn btn-primary">DELETAR</a></td>
      </tr>
 <?php
     }

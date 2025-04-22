@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Receitas Culinarias</title>
      <link rel="stylesheet" href="styles/index.css">
-     
 </head>
 <body>
     <header>
@@ -42,6 +41,12 @@
                 break;
             case 'dbAdicionareceitas':
                 include("pages/receitas/dbadicionareceitas.php");
+                break;
+            case 'editarReceitas':
+                include("pages/receitas/editarReceitas.php");
+                break;
+            case 'deletarReceitas':
+                include("pages/receitas/deletarReceitas.php");
                 break;
             default:
                 include("pages/home/home.php");
